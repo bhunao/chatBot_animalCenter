@@ -15,5 +15,9 @@
         "brinquedos": {
             "msg": "Hora de Brincar! Qual o brinquedo ideal para seu PET?",
             "options": [ "vartinha cat", "laser", "ratinho", "cat nip", "bolinha" ]
+        },
+         "cachorro": {
+            "msg": "Do que seu dog precisa?",
+            "options": [ "racao", "higiene", "brinquedos" ]
         }
     }
