@@ -1,0 +1,19 @@
+    {
+        "gato": {
+            "msg": "Do que seu felino precisa?",
+            "options": [ "racao", "higiene", "brinquedos" ]
+        },
+        "racao": {
+            "msg": "Qual tipo de Ração está procurando?",
+            "options": [ "seca", "umida" ]
+        },
+        "higiene": {
+            "msg": "Hora da limpeza?",
+            "options": [ "Sabonete liquido", "Rasqueadeira", "seca facil"
+            ]
+        },
+        "brinquedos": {
+            "msg": "Hora de Brincar! Qual o brinquedo ideal para seu PET?",
+            "options": [ "vartinha cat", "laser", "ratinho", "cat nip", "bolinha" ]
+        }
+    }

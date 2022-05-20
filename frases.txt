@@ -1,0 +1,307 @@
+{
+    "msg": "msg...",
+    "options": [
+        {
+            "option1": "option"
+        }
+    ]
+}
+
+
+Olá amante de PET!
+Seja bem vindo onde seu PET é bem vindo!
+Como podemos te ajudar hoje?
+{
+    Opção 1 Gato
+    Opção 2 Cachorro
+
+    Caso Opção 1 Gato - Do que seu felino precisa?
+
+    Opção 1 ração
+    Opção 2 Higiene
+    Opção 3 Brinquedos
+
+    Caso Opção 1 (Ração) - Qual tipo de Ração está procurando?
+
+    Opção 1 Seca
+    Opção 2 Úmida
+
+    Caso Opção 1 (Seca) - Seu PET é:
+
+    Opção 1 Filhore
+    Opção 2 Adulto
+    Opção 1 Idoso
+
+    *independente da respota precisa aparecer os kg penso eu que :
+
+    Independente da resposta acima- Quantos Quilos Precisa?
+
+    Opção 1 25kg
+    Opção 2 20kg
+    Opção 3 15kg
+    Opção 4 10kg
+    Opção 5 2,5kg
+
+    *Independente da Opção - Qual tipo de ração seu PET gosta?
+
+    Opção 1 Premium 
+    Opção 2 Especial
+    Opção 3 Super Premium
+
+    *Daqui eu acho que pode por sabor? não sei onde por o sabor da ração
+
+    *Independente da Opção - Qual sabor seu PET gosta?
+
+    Opção 1 Frango
+    Opção 2 Salmão
+    Opção 3 Carne
+    -------------------------------------------------------
+    Caso Opção 2 (Úmida) - Seu PET é:
+
+    Opção 1 Filhore
+    Opção 2 Adulto
+
+    *independente da respota precisa aparecer os kg penso eu que :
+
+    Independente da resposta acima- Quantos Quilos Precisa?
+
+    Opção 1 100g (Sachê)
+    Opção 2 110g (Sachê)
+    Opção 3 320g (Enlatado)
+
+    Caso Opção 1,2 ou 3 - Qual sabor seu PET gosta? 
+    Opção 1 Frango
+    Opção 2 Salmão
+    Opção 3 Carne
+    Opção 4 Vegetais 
+    Opção 5 Peru
+
+    * Não sei o que por aqui
+
+    ------------------------------------------
+    Caso Opção 1 Gato - Do que seu Felino precisa?
+
+    Opção 1 ração
+    Opção 2 Higiene
+    Opção 3 Brinquedos
+
+    Caso Opção 2 (Higiene)- Hora da Limpeza? 
+
+    Opção 1 Sabonete liquido para gatos
+    Opção 2 Rasqueadeira
+    Opção 3 Seca facil
+
+    Caso opção 1 Sabonete liquido para gatos - Nossas opções são:
+
+    Opção 1 Neutro
+    Opçao 2 Inodor
+    Opção 3 Com fragancia
+
+    -----------------------------------------
+
+    Caso opção 2 Rasqueadeira mostrar:
+
+    Opção 1 Rasqueadeira tamanho P
+    Opçao 2 Rasqueadeira tamanho M
+    Opção 3 Rasqueadeira tamanho G
+    ----------------------------------------
+
+
+    Caso opção 3 Seca facil
+
+    Opção 1 100ml
+    Opção 2 250ml
+    Opçao 3 500ml
+
+    E mostra "Qual fragancia?"
+
+    Opção 1 inodor
+    Opçao 2 lavanda
+    Opção 3 baunilha
+    Opção 4 morango
+    ----------------------------------------
+    Caso Opção 1 Gato - Do que seu Felino precisa?
+
+    Opção 1 ração
+    Opção 2 Higiene
+    Opção 3 Brinquedos
+
+    Caso Opção 3 Brinquedos - "Hora de Brincar! Qual o brinquedo ideal para seu PET?"
+
+    Opção 1 Varinha CAT
+    Opçao 2 Laser
+    Opção 3 Ratinho de corda
+    Opção 4 CAT NIP
+    Opção 5 Bolinha
+}
+----------------------------------------
+AGORA PARA CACHORRO
+
+Olá amante de PET!
+Seja bem vindo onde seu PET é bem vindo!
+Como podemos te ajudar hoje?
+Opção 1 Gato
+Opção 2 Cachorro
+
+Caso Opção 2 Cahorro - Do que seu canino precisa?
+
+Opção 1 ração
+Opção 2 Higiene
+Opção 3 Brinquedos
+
+Caso Opção 1 (Ração) - Qual tipo de Ração está procurando?
+
+Opção 1 Seca
+Opção 2 Úmida
+
+Caso Opção 1 (Seca) - Seu PET é:
+
+Opção 1 Filhore
+Opção 2 Adulto
+Opção 1 Idoso
+
+*independente da respota precisa aparecer os kg penso eu que :
+
+Independente da resposta acima- Quantos Quilos Precisa?
+
+Opção 1 25kg
+Opção 2 20kg
+Opção 3 15kg
+Opção 4 10kg
+Opção 5 2,5kg
+
+*Independente da Opção - Qual tipo de ração seu PET gosta?
+
+Opção 1 Premium 
+Opção 2 Especial
+Opção 3 Super Premium
+
+*Daqui eu acho que pode por sabor? não sei onde por o sabor da ração
+
+*Independente da Opção - Qual sabor seu PET gosta?
+
+Opção 1 Frango
+Opção 2 Salmão
+Opção 3 Carne
+-------------------------------------------------------
+Caso Opção 2 (Úmida) - Seu PET é:
+
+Opção 1 Filhore
+Opção 2 Adulto
+
+*independente da respota precisa aparecer os kg penso eu que :
+
+Independente da resposta acima- Quantos Quilos Precisa?
+
+Opção 1 100g (Sachê)
+Opção 2 110g (Sachê)
+Opção 3 320g (Enlatado)
+
+Caso Opção 1,2 ou 3 - Qual sabor seu PET gosta? 
+Opção 1 Frango
+Opção 2 Salmão
+Opção 3 Carne
+Opção 4 Vegetais 
+Opção 5 Peru
+
+* Não sei o que por aqui
+-----------------------------------------------------
+Caso Opção 2 Cachorro - Do que seu canino precisa?
+
+Opção 1 ração
+Opção 2 Higiene
+Opção 3 Brinquedos
+
+Caso Opção 2 (Higiene)- Hora da Limpeza? 
+
+Opção 1 Shampoo
+Opção 2 Condicionador
+Opção 3 Talco 
+
+Caso opção 1 Shampoo - Nossas opções são:
+
+Opção 1 Neutro
+Opçao 2 Pelo Seco
+Opção 3 Pele Sensivel
+
+*independentemente da resposta acima
+
+Opção 1 100ml
+Opçao 2 250ml
+Opção 3 500ml
+Opção 4 1L
+
+*se opção 2,3 ou 4 : "qual a fragancia favorita do seu PET?"
+
+
+Opção 1 Lavanda
+Opçao 2 Baunilha
+Opção 3 Morango
+
+
+-----
+
+Caso opção 2 Condicionador - Nossas opções são:
+
+Opção 1 Neutro
+Opçao 2 Hidratação
+Opção 3 Restauração
+Opção 4 Brilho
+
+*independentemente da resposta acima
+
+Opção 1 100ml
+Opçao 2 250ml
+Opção 3 500ml
+Opção 4 pote de 300ml
+
+*se opção 2,3 ou 4 : "qual a fragancia favorita do seu PET?"
+
+
+Opção 1 Lavanda
+Opçao 2 Baunilha
+Opção 3 Morango
+----
+Caso Opção 2 (Higiene)- Hora da Limpeza? 
+
+Opção 1 Shampoo
+Opção 2 Condicionador
+Opção 3 Talco 
+
+Caso opção 3 Talco - Esse é o Talco Ant-pulga:
+
+Opção 1 Neutro
+Opção 2 Com fragancia
+
+Caso Opção 2 :
+
+
+Opção 1 Lavanda
+Opçao 2 Baunilha
+
+
+---------------------------------------------------------
+Caso Opção 1 Gato - Do que seu Felino precisa?
+
+Opção 1 ração
+Opção 2 Higiene
+Opção 3 Brinquedos
+
+Caso Opção 3 Brinquedos - "Hora de Brincar! Qual o brinquedo ideal para seu PET?"
+
+Opção 1 Pelucia
+Opçao 2 Jogo interativo
+Opção 3 Brinquedo latex
+Opção 4 Cordas e Dental bone
+Opção 5 Bolinha
+Opção 6 Frisbees
+------------------
+
+
+
+
+
+Opção 1
+Opçao 2
+Opção 3
+Opção 4
