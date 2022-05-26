@@ -1,19 +1,17 @@
+import uvicorn
+
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
-import json
-import uvicorn
-from chatbot.animal_template import Animal
+
+from model.animal import Animal
 
 
 app = FastAPI()
-
 app.animal = Animal()
-
 app.mount("/static", StaticFiles(directory="static"), name="static")
-
 templates = Jinja2Templates(directory="static")
 
 @app.route("/")
@@ -27,7 +25,6 @@ async def send_message(request: Request):
     user_msg = user_replic["message"]
     msg = app.animal.anwser(user_msg)
 
-    bot_replic = 'animal center agradece a preferencia'
     reply = jsonable_encoder({"message" :  str(msg)})
     return JSONResponse(reply)
 
