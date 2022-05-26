@@ -1,198 +1,408 @@
 {
-		
-    "gato":{
-        "msg":"Do que seu PET precisa?",
-        "options":["racao felina","higiene felina","brinquedos para felinos"]
-        },
-
-    "racao felina":{
-        "msg":"Qual tipo de Ração está procurando?",
-        "options":["seca","umida"]
-        },
-    "seca":{
-        "msg":"Seu PET é:",
-        "options":["filhote","adulto","idoso"]
-        },
-    "filhote":{
-        "msg":"Quantos Quilos Precisa?",
-        "options":["25kg","20kg","15kg","10kg","2,5kg"]
-        },
-    "adulto":{
-        "msg":"Quantos Quilos Precisa?",
-        "options":["25kg","20kg","15kg","10kg","2,5kg"]
-        },
-    "idoso":{
-        "msg":"Quantos Quilos Precisa?",
-        "options":["25kg","20kg","15kg","10kg","2,5kg"]
-        },
-    "25kg":{
-        "msg":"Qual tipo de ração seu PET gosta?",
-        "options":["premium ","especial","super premium"]
-        },
-    "20kg":{
-        "msg":"Qual tipo de ração seu PET gosta?",
-        "options":["premium ","especial","super premium"]
-        },
-    "15kg":{
-        "msg":"Qual tipo de ração seu PET gosta?",
-        "options":["premium ","especial","super premium"]
-        },
-    "10kg":{
-        "msg":"Qual tipo de ração seu PET gosta?",
-        "options":["premium ","especial","super premium"]
-        },
-    "1,5kg":{
-        "msg":"Qual tipo de ração seu PET gosta?",
-        "options":["premium ","especial","super premium"]
-        },
-    "premium":{
-        "msg":"Qual sabor seu PET gosta?",
-        "options":["frango ","salmao","carne"]
-        },
-    "especial":{
-        "msg":"Qual sabor seu PET gosta?",
-        "options":["frango ","salmao","carne"]
-        },
-    "super premium":{
-        "msg":"Qual sabor seu PET gosta?",
-        "options":["frango ","salmao","carne"]
-        },
-
-    "umida":{
-        "msg":"Seu PET é:",
-        "options":["filhote","adulto","idoso"]
-        },	
-      "filhote":{
-        "msg":"Quantos Quilos Precisa?",
-        "options":["100g","110g","320g"]
-        },
-    "adulto":{
-        "msg":"Quantos Quilos Precisa?",
-        "options":["100g","110g","320g"]
-        },
-    "idoso":{
-        "msg":"Quantos Quilos Precisa?",
-        "options":["100g","110g","320g"]
-        },
-
-    "100g":{
-        "msg":"Qual sabor seu PET gosta?",
-        "options":["frango ","salmao","carne","vegetais","peru"]
-        },
-    "110g":{
-        "msg":"Qual sabor seu PET gosta?",
-        "options":["frango ","salmao","carne","vegetais","peru"]
-        },
-    "320g":{
-        "msg":"Qual sabor seu PET gosta?",
-        "options":["frango ","salmao","carne","vegetais","peru"]
-        },
-
-    "higiene":{
-        "msg":"Hora da Limpeza? ",
-        "options":["sabonete liquido para gatos","rasqueadeira","seca facil"]
-        },
-    "sabonete liquido para gatos":{
-        "msg":"Qual fragancia? ",
-        "options":["neutro","Inodor","com fragancia"]
-        },
-    "rasqueadeira":{
-        "msg":"Qual tamanho atende sua necessidade?",
-        "options":["tamanho P","tamanho M","tamanho G"]
-        },
-                            
-    "seca facil":{
-        "msg":"Qual litragem? ",
-        "options":["100ml","250ml","500ml"]
-        },	
-    "100ml":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },
-    "250ml":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },		
-    "500ml":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },
-                    
-    "brinquedos felinos":{
-        "msg":"Hora de Brincar! Qual o brinquedo ideal para seu PET?",
-        "options":["varinha cat","laser","ratinho de corda","cat nip","bolinha"]
-        },			
-
-
-        
-    "cachorro":{
-         "msg":"Do que seu canino precisa?",
-        "options":["racao canina","higiene canina","brinquedos caninos"]
-        },
-    "racao canina":{
-        "msg":"Qual tipo de Ração está procurando?",
-        "options":["seca","umida"]
-        } ,
-    
-    "higiene canina":{
-        "msg":"Hora da Limpeza? ",
-        "options":["shampoo","condicionador","talco"]
-        },
-    "shampoo":{
-        "msg":"Nossas opções são:",
-        "options":["neutro","pelo seco","pele sensivel"]
-        },
-    "pelo seco":{
-        "msg":"Qual Litragem?",
-        "options":["100ml","250ml","500ml","1L"]
-        },
-    "pele sensivel":{
-        "msg":"Qual Litragem?",
-        "options":["100ml","250ml","500ml","1L"]
-        },
-    "neutro":{
-        "msg":"Qual Litragem?",
-        "options":["100ml","250ml","500ml","1L"]
-        },
-
-    "100ml":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },
-    "250ml":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },		
-    "500ml":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },			
-    "1L":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },
-        
-    "inodor":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },
-    "lavanda":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },
-    "baunilha":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },
-    "morango":{
-        "msg":"Qual fragancia?",
-        "options":["inodor","lavanda","baunilha","morango"]
-        },
-          
-    "brinquedos caninos":{
-        "msg":"Hora de Brincar! Qual o brinquedo ideal para seu PET?",
-        "options":["pelucia","jogo interativo","brinquedo latex","cordas e dentar bone","frisbees"]
-        }
-        
-
- }
+    "gato": {
+        "msg": "Do que seu PET precisa?",
+        "options": [
+            "racao felina",
+            "higiene felina",
+            "brinquedos para felinos"
+        ]
+    },
+    "racao felina": {
+        "msg": "Qual tipo de Ração está procurando?",
+        "options": [
+            "seca",
+            "umida"
+        ]
+    },
+    "seca": {
+        "msg": "Seu PET é:",
+        "options": [
+            "filhote",
+            "adulto",
+            "idoso"
+        ]
+    },
+    "filhote": {
+        "msg": "Quantos Quilos Precisa?",
+        "options": [
+            "25kg",
+            "20kg",
+            "15kg",
+            "10kg",
+            "2,5kg"
+        ]
+    },
+    "adulto": {
+        "msg": "Quantos Quilos Precisa?",
+        "options": [
+            "25kg",
+            "20kg",
+            "15kg",
+            "10kg",
+            "2,5kg"
+        ]
+    },
+    "idoso": {
+        "msg": "Quantos Quilos Precisa?",
+        "options": [
+            "25kg",
+            "20kg",
+            "15kg",
+            "10kg",
+            "2,5kg"
+        ]
+    },
+    "25kg": {
+        "msg": "Qual tipo de ração seu PET gosta?",
+        "options": [
+            "premium ",
+            "especial",
+            "super premium"
+        ]
+    },
+    "20kg": {
+        "msg": "Qual tipo de ração seu PET gosta?",
+        "options": [
+            "premium ",
+            "especial",
+            "super premium"
+        ]
+    },
+    "15kg": {
+        "msg": "Qual tipo de ração seu PET gosta?",
+        "options": [
+            "premium ",
+            "especial",
+            "super premium"
+        ]
+    },
+    "10kg": {
+        "msg": "Qual tipo de ração seu PET gosta?",
+        "options": [
+            "premium ",
+            "especial",
+            "super premium"
+        ]
+    },
+    "1,5kg": {
+        "msg": "Qual tipo de ração seu PET gosta?",
+        "options": [
+            "premium ",
+            "especial",
+            "super premium"
+        ]
+    },
+    "premium": {
+        "msg": "Qual sabor seu PET gosta?",
+        "options": [
+            "frango ",
+            "salmao",
+            "carne"
+        ]
+    },
+    "especial": {
+        "msg": "Qual sabor seu PET gosta?",
+        "options": [
+            "frango ",
+            "salmao",
+            "carne"
+        ]
+    },
+    "super premium": {
+        "msg": "Qual sabor seu PET gosta?",
+        "options": [
+            "frango ",
+            "salmao",
+            "carne"
+        ]
+    },
+    "umida": {
+        "msg": "Seu PET é:",
+        "options": [
+            "filhote",
+            "adulto",
+            "idoso"
+        ]
+    },
+    "filhote": {
+        "msg": "Quantos Quilos Precisa?",
+        "options": [
+            "100g",
+            "110g",
+            "320g"
+        ]
+    },
+    "adulto": {
+        "msg": "Quantos Quilos Precisa?",
+        "options": [
+            "100g",
+            "110g",
+            "320g"
+        ]
+    },
+    "idoso": {
+        "msg": "Quantos Quilos Precisa?",
+        "options": [
+            "100g",
+            "110g",
+            "320g"
+        ]
+    },
+    "100g": {
+        "msg": "Qual sabor seu PET gosta?",
+        "options": [
+            "frango ",
+            "salmao",
+            "carne",
+            "vegetais",
+            "peru"
+        ]
+    },
+    "110g": {
+        "msg": "Qual sabor seu PET gosta?",
+        "options": [
+            "frango ",
+            "salmao",
+            "carne",
+            "vegetais",
+            "peru"
+        ]
+    },
+    "320g": {
+        "msg": "Qual sabor seu PET gosta?",
+        "options": [
+            "frango ",
+            "salmao",
+            "carne",
+            "vegetais",
+            "peru"
+        ]
+    },
+    "higiene": {
+        "msg": "Hora da Limpeza? ",
+        "options": [
+            "sabonete liquido para gatos",
+            "rasqueadeira",
+            "seca facil"
+        ]
+    },
+    "sabonete liquido para gatos": {
+        "msg": "Qual fragancia? ",
+        "options": [
+            "neutro",
+            "Inodor",
+            "com fragancia"
+        ]
+    },
+    "rasqueadeira": {
+        "msg": "Qual tamanho atende sua necessidade?",
+        "options": [
+            "tamanho P",
+            "tamanho M",
+            "tamanho G"
+        ]
+    },
+    "seca facil": {
+        "msg": "Qual litragem? ",
+        "options": [
+            "100ml",
+            "250ml",
+            "500ml"
+        ]
+    },
+    "100ml": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "250ml": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "500ml": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "brinquedos felinos": {
+        "msg": "Hora de Brincar! Qual o brinquedo ideal para seu PET?",
+        "options": [
+            "varinha cat",
+            "laser",
+            "ratinho de corda",
+            "cat nip",
+            "bolinha"
+        ]
+    },
+    "cachorro": {
+        "msg": "Do que seu canino precisa?",
+        "options": [
+            "racao canina",
+            "higiene canina",
+            "brinquedos caninos"
+        ]
+    },
+    "racao canina": {
+        "msg": "Qual tipo de Ração está procurando?",
+        "options": [
+            "seca",
+            "umida"
+        ]
+    },
+    "higiene canina": {
+        "msg": "Hora da Limpeza? ",
+        "options": [
+            "shampoo",
+            "condicionador",
+            "talco"
+        ]
+    },
+    "shampoo": {
+        "msg": "Nossas opções são:",
+        "options": [
+            "neutro",
+            "pelo seco",
+            "pele sensivel"
+        ]
+    },
+    "pelo seco": {
+        "msg": "Qual Litragem?",
+        "options": [
+            "100ml",
+            "250ml",
+            "500ml",
+            "1L"
+        ]
+    },
+    "pele sensivel": {
+        "msg": "Qual Litragem?",
+        "options": [
+            "100ml",
+            "250ml",
+            "500ml",
+            "1L"
+        ]
+    },
+    "neutro": {
+        "msg": "Qual Litragem?",
+        "options": [
+            "100ml",
+            "250ml",
+            "500ml",
+            "1L"
+        ]
+    },
+    "100ml": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "250ml": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "500ml": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "1L": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "inodor": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "lavanda": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "baunilha": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "morango": {
+        "msg": "Qual fragancia?",
+        "options": [
+            "inodor",
+            "lavanda",
+            "baunilha",
+            "morango"
+        ]
+    },
+    "brinquedos caninos": {
+        "msg": "Hora de Brincar! Qual o brinquedo ideal para seu PET?",
+        "options": [
+            "pelucia",
+            "jogo interativo",
+            "brinquedo latex",
+            "cordas e dentar bone",
+            "frisbees"
+        ]
+    },
+    "invalido": {
+        "msg": "Opção invalida",
+        "options": [
+            "reiniciar",
+            "continuar"
+        ]
+    },
+    "reiniciar": {
+        "msg": "Olá amante de PET\nSeja bem vindo onde seu PET é bem vindo\nComo podemos te ajudar?",
+        "options": [
+            "Gato",
+            "Cachorro"
+        ]
+    },
+    "fim": {
+        "msg": "Você escolheu: ",
+        "options": ["reiniciar"]
+    }
+}
