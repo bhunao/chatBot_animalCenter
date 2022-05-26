@@ -1,4 +1,6 @@
+from asyncio import selector_events
 import json
+from typing import List
 
 
 class Animal:
@@ -7,20 +9,38 @@ class Animal:
         self.dialogo = self.dialog()
         self.msg = None
         self.options = ["gato", "cachorro"]
+        self.order: List = []
 
     def anwser(self, text:str) -> str:
-        selected_option = text.lower()
         print(f"options are: {self.options}")
-        print(f"person said: {selected_option}")
-        #if selected_option in self.dialogo.keys():
-        if selected_option in self.options:
-                self.step = selected_option
+        selected_option = text.lower()
+        if selected_option == "reiniciar":
+            self.order = []
+        elif selected_option == "continuar":
+            self.step = self.order[-1]
+            selected_option = self.step
+        elif selected_option in self.options and not selected_option in self.dialogo.keys():
+            self.step = "fim"
+            self.order.append(selected_option)
+            selected_option = "fim"
+            self.options = self.order
+        elif selected_option in self.options and selected_option in self.dialogo.keys():
+            self.step = selected_option
+            self.order.append(selected_option)
         else:
-            return "Opção invalida!"
+            self.step = "invalido"
+            selected_option = "invalido"
         
         self.msg = self.dialogo[selected_option]["msg"]
-        self.options = self.dialogo[selected_option]["options"]
+        if selected_option != "fim":
+            self.options = self.dialogo[selected_option]["options"] #if 
+            self.step = "reiniciar"
+        else:
+            self.options = self.order
         options = "<br>-" + "<br>-".join(self.options)
+
+        print(f"person said: {text}")
+        print(self.order)
 
         return f"{self.msg}\n{options}"
     

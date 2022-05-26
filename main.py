@@ -16,6 +16,7 @@ templates = Jinja2Templates(directory="static")
 
 @app.route("/")
 async def index(request: Request):
+    app.animal = Animal()
     return templates.TemplateResponse("index.html", {"request": request})
 
 @app.post('/send_message')
