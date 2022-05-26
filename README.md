@@ -10,7 +10,7 @@ Para o trabalho acadêmico, foi criada uma empresa fictícia, a AnimalCenter. Um
 
 A AnimalCenter, em busca de uma solução tecnológica para servir seus clientes com um autoatendimento, decidiu implementar um sistema de chatbot em seus serviços, para facilitar e auxiliar os clientes em suas compras.
 
-## CHATBOT:
+## CHATBOT
 A intenção do bot construído é direcionar através de pré-seleções de contextos entre os setores da loja pets, o cliente, para que ele possa ir selecionando os itens de interesse e seja direcionado diretamente à categoria de produtos que ele deseja.
 
 O primeiro contato com o bot, tem essa aparência:
