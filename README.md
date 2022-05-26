@@ -29,5 +29,3 @@ O primeiro contato com o bot, tem essa aparência:
 O desenvolvimento do Chatbot foi feito em Python, utilizando algumas bibliotecas para seu desenvolvimento.
 
 Desenvolvemos as interações do back-end para a aplicação. De baixo de tudo, o bot usa FASTAPI, para criação do site, com Uvicorn para execução da aplicação.
-
-O design independente do idioma do ChatterBot permite que ele seja treinado para falar qualquer idioma. Além disso, a natureza de aprendizado de máquina do ChatterBot permite que uma instância de agente melhore seu próprio conhecimento de possíveis respostas à medida que interage com humanos e outras fontes de dados informativos, o que gera uma grande abertura para melhorias desse bot, em caso de aperfeiçoamento do projeto futuramente.
