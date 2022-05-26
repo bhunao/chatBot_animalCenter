@@ -18,17 +18,17 @@ body,html {
 }
 
 .bot-message {
-  background: #22b538;
+  background: #1d094b;
   max-width: 300px;
-  color: white;
-  margin-left: auto;
+  color: rgb(240, 218, 23);
+  margin: 13px 1px;
 }
 
 .human-message {
-  background: dodgerblue;
+  background: rgb(24, 23, 23);
   max-width: 300px;
-  color: white;
-  margin: 13px 1px;
+  color: white;  
+  margin-left: auto;
 }
 
 .input {
