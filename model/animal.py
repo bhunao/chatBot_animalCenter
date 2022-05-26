@@ -1,4 +1,5 @@
 from asyncio import selector_events
+from base64 import encode
 import json
 from typing import List
 
@@ -45,6 +46,6 @@ class Animal:
         return f"{self.msg}\n{options}"
     
     def dialog(self):
-        with open("dialogo.json") as f:
+        with open("dialogo.json", encoding="utf-8") as f:
             dialog_dict = json.load(f)
         return dialog_dict
