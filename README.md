@@ -24,7 +24,8 @@ A intenção do bot construído é direcionar através de pré-seleções de con
 
 O primeiro contato com o bot, tem essa aparência:
 
-![image](https://user-images.githubusercontent.com/89281356/170395515-12e750dc-e5ae-4698-964e-456491a8e258.png)
+![image](https://user-images.githubusercontent.com/89281356/172059268-c6dc0c85-b47e-43d2-8a88-ee0c9ca9a2df.png)
+
 
 O desenvolvimento do Chatbot foi feito em Python, utilizando algumas bibliotecas para seu desenvolvimento.
 
